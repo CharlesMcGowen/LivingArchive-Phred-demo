@@ -887,15 +887,15 @@ body {
     }
     
     .ad-focus {
-        font-size: 13px;
+        font-size: 17px;
     }
     
     .ad-tagline {
-        font-size: 12px;
+        font-size: 16px;
     }
     
     .ad-description {
-        font-size: 10px;
+        font-size: 14px;
     }
     
     .ad-why-section {
@@ -903,23 +903,23 @@ body {
     }
     
     .ad-why-title {
-        font-size: 11px;
+        font-size: 15px;
     }
     
     .ad-benefits-list li {
-        font-size: 9px;
+        font-size: 13px;
     }
     
     .ad-impact {
-        font-size: 10px;
+        font-size: 14px;
     }
     
     .ad-cta {
-        font-size: 11px;
+        font-size: 15px;
     }
     
     .sponsor-ad-link {
-        font-size: 10px;
+        font-size: 14px;
         padding: 8px 10px;
     }
 }
