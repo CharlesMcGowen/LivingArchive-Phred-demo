@@ -675,6 +675,39 @@ body {
 }
 
 /* Responsive Design */
+@media (max-width: 1200px) {
+    .page-wrapper {
+        flex-direction: column;
+    }
+    
+    .side-advertisement {
+        position: static;
+        width: 100%;
+        margin-top: 20px;
+    }
+    
+    .ad-content {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 15px;
+    }
+    
+    .sponsor-ad-link {
+        flex-direction: row;
+    }
+    
+    .ad-icon-wrapper {
+        width: 50px;
+        height: 50px;
+    }
+    
+    .ad-text {
+        text-align: left;
+    }
+}
+
 @media (max-width: 768px) {
     .demo-header h1 {
         font-size: 2em;
@@ -737,6 +770,18 @@ body {
         transform: none;
         max-width: 100%;
         margin-top: 10px;
+    }
+    
+    .ad-content {
+        padding: 15px;
+    }
+    
+    .ad-title {
+        font-size: 14px;
+    }
+    
+    .ad-subtitle {
+        font-size: 12px;
     }
 }
 
