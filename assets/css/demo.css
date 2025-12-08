@@ -14,74 +14,97 @@ body {
     position: relative;
 }
 
-/* Flash Popup */
-.flash-popup {
-    position: fixed;
+/* Page Layout */
+.page-wrapper {
+    display: flex;
+    gap: 20px;
+    max-width: 1600px;
+    margin: 0 auto;
+    position: relative;
+}
+
+/* Side Advertisement */
+.side-advertisement {
+    position: sticky;
     top: 20px;
-    right: 20px;
-    z-index: 10000;
-    opacity: 0;
-    transform: translateY(-20px);
-    transition: all 0.3s ease-out;
-    pointer-events: none;
+    height: fit-content;
+    width: 200px;
+    flex-shrink: 0;
+    z-index: 100;
 }
 
-.flash-popup.show {
-    opacity: 1;
-    transform: translateY(0);
-    pointer-events: all;
-}
-
-.flash-popup-content {
+.ad-content {
     background: white;
     border-radius: 8px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-    padding: 15px 20px;
-    position: relative;
-    min-width: 200px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
     border: 2px solid #ea4aaa;
+    position: relative;
+    transition: transform 0.2s, box-shadow 0.2s;
 }
 
-.flash-popup-close {
+.ad-content:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(234, 74, 170, 0.2);
+}
+
+.ad-label {
     position: absolute;
-    top: 5px;
-    right: 10px;
-    background: none;
-    border: none;
-    font-size: 24px;
-    color: #999;
-    cursor: pointer;
-    line-height: 1;
-    padding: 0;
-    width: 24px;
-    height: 24px;
+    top: -10px;
+    left: 10px;
+    background: #ea4aaa;
+    color: white;
+    font-size: 10px;
+    font-weight: 600;
+    padding: 2px 8px;
+    border-radius: 4px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.sponsor-ad-link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: inherit;
+    gap: 12px;
+}
+
+.ad-icon-wrapper {
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: color 0.2s;
+    width: 60px;
+    height: 60px;
+    background: #fff5f9;
+    border-radius: 50%;
+    transition: transform 0.3s;
 }
 
-.flash-popup-close:hover {
-    color: #333;
+.sponsor-ad-link:hover .ad-icon-wrapper {
+    transform: scale(1.1);
 }
 
-.flash-popup-body {
-    padding-right: 25px;
-}
-
-.sponsor-link {
-    display: inline-flex;
-    align-items: center;
-    text-decoration: none;
-    transition: transform 0.2s;
-}
-
-.sponsor-link:hover {
-    transform: scale(1.05);
-}
-
-.sponsor-link svg {
+.sponsor-ad-link svg {
     animation: heartbeat 1.5s ease-in-out infinite;
+}
+
+.ad-text {
+    text-align: center;
+}
+
+.ad-title {
+    font-weight: 600;
+    color: #333;
+    font-size: 16px;
+    margin-bottom: 4px;
+}
+
+.ad-subtitle {
+    color: #ea4aaa;
+    font-size: 13px;
+    font-weight: 500;
 }
 
 @keyframes heartbeat {
@@ -94,8 +117,8 @@ body {
 }
 
 .demo-container {
+    flex: 1;
     max-width: 1400px;
-    margin: 0 auto;
 }
 
 /* Animation Bar */

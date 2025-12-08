@@ -7,22 +7,8 @@
     <link rel="stylesheet" href="assets/css/demo.css">
 </head>
 <body>
-    <!-- Flash Popup -->
-    <div class="flash-popup" id="flash-popup">
-        <div class="flash-popup-content">
-            <button class="flash-popup-close" id="flash-popup-close">&times;</button>
-            <div class="flash-popup-body">
-                <a href="https://github.com/sponsors/ChickenPwny" target="_blank" rel="noopener" class="sponsor-link">
-                    <svg height="16" width="16" viewBox="0 0 16 16" style="vertical-align:middle; fill:#ea4aaa;">
-                        <path d="M8 13.314l-6.293-6.293a3.493 3.493 0 0 1 0-4.95C2.707.982 4.797.982 6.293 2.08l1.707 1.707 1.707-1.707c1.496-1.098 3.586-1.098 5.07 0a3.493 3.493 0 0 1 0 4.95L8 13.314z"></path>
-                    </svg>
-                    <span style="margin-left:4px; font-weight:bold; color:#ea4aaa;">Sponsor on GitHub</span>
-                </a>
-            </div>
-        </div>
-    </div>
-
-    <div class="demo-container">
+    <div class="page-wrapper">
+        <div class="demo-container">
         <!-- Animation Bar -->
         <div class="animation-bar">
             <div class="animation-container">
@@ -167,6 +153,25 @@
         <footer class="demo-footer">
             <p>This is a live demo with mocked interactions. <a href="https://github.com/ChickenPwny/PhishingRetrievalEmailDetection">View Source</a></p>
         </footer>
+        </div>
+
+        <!-- Side Advertisement -->
+        <aside class="side-advertisement" id="side-advertisement">
+            <div class="ad-content">
+                <div class="ad-label">Sponsored</div>
+                <a href="https://github.com/sponsors/ChickenPwny" target="_blank" rel="noopener" class="sponsor-ad-link">
+                    <div class="ad-icon-wrapper">
+                        <svg height="24" width="24" viewBox="0 0 16 16" style="fill:#ea4aaa;">
+                            <path d="M8 13.314l-6.293-6.293a3.493 3.493 0 0 1 0-4.95C2.707.982 4.797.982 6.293 2.08l1.707 1.707 1.707-1.707c1.496-1.098 3.586-1.098 5.07 0a3.493 3.493 0 0 1 0 4.95L8 13.314z"></path>
+                        </svg>
+                    </div>
+                    <div class="ad-text">
+                        <div class="ad-title">Support Phred</div>
+                        <div class="ad-subtitle">Sponsor on GitHub</div>
+                    </div>
+                </a>
+            </div>
+        </aside>
     </div>
 
     <script src="assets/js/demo.js"></script>

@@ -20,7 +20,6 @@ document.addEventListener('DOMContentLoaded', function() {
     startAutoSimulation();
     initializeChart();
     startAnimationLoop();
-    showFlashPopup();
 });
 
 function initializeDemo() {
@@ -476,34 +475,5 @@ function showEventLog() {
     }, 2000);
 }
 
-// Flash Popup functions
-function showFlashPopup() {
-    const popup = document.getElementById('flash-popup');
-    const closeBtn = document.getElementById('flash-popup-close');
-    
-    // Show popup after a short delay
-    setTimeout(() => {
-        popup.classList.add('show');
-    }, 500);
-    
-    // Auto-hide after 8 seconds
-    setTimeout(() => {
-        hideFlashPopup();
-    }, 8000);
-    
-    // Close button handler
-    closeBtn.addEventListener('click', hideFlashPopup);
-    
-    // Click outside to close (optional)
-    popup.addEventListener('click', function(e) {
-        if (e.target === popup) {
-            hideFlashPopup();
-        }
-    });
-}
-
-function hideFlashPopup() {
-    const popup = document.getElementById('flash-popup');
-    popup.classList.remove('show');
-}
+// Side advertisement is always visible, no JavaScript needed
 
