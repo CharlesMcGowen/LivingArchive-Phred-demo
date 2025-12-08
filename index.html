@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phred Demo - Phishing Simulation Platform</title>
+    <link rel="stylesheet" href="assets/css/demo.css">
+</head>
+<body>
+    <div class="demo-container">
+        <!-- Header -->
+        <header class="demo-header">
+            <h1>🛡️ Phred Demo</h1>
+            <p class="subtitle">Interactive Phishing Simulation Platform</p>
+            <div class="demo-badge">Live Demo</div>
+        </header>
+
+        <!-- Campaign Overview -->
+        <section class="demo-section">
+            <h2>Active Campaign: Q4 Security Awareness Test</h2>
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-value" id="emails-sent">0</div>
+                    <div class="stat-label">Emails Sent</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value" id="emails-opened">0</div>
+                    <div class="stat-label">Emails Opened</div>
+                    <div class="stat-percent" id="open-rate">0%</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value" id="links-clicked">0</div>
+                    <div class="stat-label">Links Clicked</div>
+                    <div class="stat-percent" id="click-rate">0%</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value" id="forms-submitted">0</div>
+                    <div class="stat-label">Forms Submitted</div>
+                    <div class="stat-percent" id="submit-rate">0%</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Live Activity Feed -->
+        <section class="demo-section">
+            <h2>📊 Live Activity Feed</h2>
+            <div class="activity-feed" id="activity-feed">
+                <div class="activity-item">
+                    <span class="activity-time">Just now</span>
+                    <span class="activity-icon">📧</span>
+                    <span class="activity-text">Campaign started - Sending emails...</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Mock Email Preview -->
+        <section class="demo-section">
+            <h2>📧 Sample Phishing Email</h2>
+            <div class="email-preview">
+                <div class="email-header">
+                    <div class="email-from">
+                        <strong>Security Team</strong> &lt;security@company.com&gt;
+                    </div>
+                    <div class="email-subject">URGENT: Verify Your Account</div>
+                    <div class="email-time">2 minutes ago</div>
+                </div>
+                <div class="email-body">
+                    <p>Hello John,</p>
+                    <p>We detected unusual activity on your account. Please verify your credentials immediately to prevent account lockout.</p>
+                    <a href="#" class="email-link" id="demo-link">Click here to verify your account</a>
+                    <p>If you did not request this, please ignore this email.</p>
+                    <p>Best regards,<br>Security Team</p>
+                </div>
+            </div>
+            <div class="demo-actions">
+                <button class="demo-btn" id="btn-open-email">📬 Open Email</button>
+                <button class="demo-btn" id="btn-click-link">🔗 Click Link</button>
+                <button class="demo-btn" id="btn-submit-form">📝 Submit Form</button>
+                <button class="demo-btn" id="btn-reset">🔄 Reset Demo</button>
+            </div>
+        </section>
+
+        <!-- Real-time Metrics Chart -->
+        <section class="demo-section">
+            <h2>📈 Real-time Metrics</h2>
+            <div class="metrics-chart">
+                <canvas id="metrics-chart" width="800" height="300"></canvas>
+            </div>
+        </section>
+
+        <!-- Features Showcase -->
+        <section class="demo-section">
+            <h2>✨ Key Features</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">📧</div>
+                    <h3>Email Delivery</h3>
+                    <p>DKIM signing, rate limiting, and professional SMTP delivery</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">📊</div>
+                    <h3>Advanced Analytics</h3>
+                    <p>Real-time tracking, behavioral metrics, and department breakdowns</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🔔</div>
+                    <h3>Real-time Alerts</h3>
+                    <p>Instant notifications for high-risk interactions</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🎯</div>
+                    <h3>Targeted Campaigns</h3>
+                    <p>Employee segmentation and multi-stage spear phishing</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="demo-footer">
+            <p>This is a live demo with mocked interactions. <a href="https://github.com/ChickenPwny/PhishingRetrievalEmailDetection">View Source</a></p>
+        </footer>
+    </div>
+
+    <script src="assets/js/demo.js"></script>
+</body>
+</html>
+
