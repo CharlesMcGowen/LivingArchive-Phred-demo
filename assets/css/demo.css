@@ -54,7 +54,7 @@ body {
     left: 20px;
     background: #ea4aaa;
     color: white;
-    font-size: 10px;
+    font-size: 20px;
     font-weight: 600;
     padding: 4px 10px;
     border-radius: 4px;
@@ -98,13 +98,13 @@ body {
     align-items: center;
     gap: 6px;
     font-weight: 600;
-    font-size: 14px;
+    font-size: 18px;
     color: #333;
     justify-content: center;
 }
 
 .ad-focus-icon {
-    font-size: 16px;
+    font-size: 20px;
 }
 
 .ad-focus-text {
@@ -116,7 +116,7 @@ body {
 }
 
 .ad-tagline {
-    font-size: 13px;
+    font-size: 17px;
     font-weight: 500;
     color: #2c3e50;
     margin-bottom: 12px;
@@ -125,7 +125,7 @@ body {
 }
 
 .ad-description {
-    font-size: 11px;
+    font-size: 15px;
     color: #555;
     line-height: 1.5;
     margin-bottom: 15px;
@@ -141,7 +141,7 @@ body {
 }
 
 .ad-why-title {
-    font-size: 12px;
+    font-size: 16px;
     font-weight: 600;
     color: #2c3e50;
     margin-bottom: 10px;
@@ -154,7 +154,7 @@ body {
 }
 
 .ad-benefits-list li {
-    font-size: 10px;
+    font-size: 14px;
     color: #555;
     line-height: 1.5;
     margin-bottom: 6px;
@@ -168,7 +168,7 @@ body {
     left: 0;
     color: #ea4aaa;
     font-weight: bold;
-    font-size: 14px;
+    font-size: 18px;
 }
 
 .ad-benefits-list li:last-child {
@@ -176,7 +176,7 @@ body {
 }
 
 .ad-impact {
-    font-size: 11px;
+    font-size: 15px;
     color: #555;
     line-height: 1.5;
     margin-bottom: 12px;
@@ -185,7 +185,7 @@ body {
 }
 
 .ad-cta {
-    font-size: 12px;
+    font-size: 16px;
     font-weight: 500;
     color: #2c3e50;
     margin-bottom: 15px;
@@ -201,7 +201,7 @@ body {
     border-radius: 6px;
     text-align: center;
     font-weight: 600;
-    font-size: 11px;
+    font-size: 15px;
     transition: transform 0.2s, box-shadow 0.2s;
     margin-top: 15px;
     line-height: 1.4;
