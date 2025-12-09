@@ -1,7 +1,7 @@
-# 🚀 Support Open Source Security & AI Research — PHRED Product Definition & Sponsorship Policy
+# 🚀 Support Next-Gen Security & AI Innovation — PHRED Product Definition & Sponsorship Policy
 
-With your support, you are investing in groundbreaking research and continuous improvement of security technologies that protect modern digital infrastructure.  
-My mission is to deliver cutting-edge open-source solutions for businesses, educators, and researchers—empowering a safer and more information-driven world.
+With your support, you are investing in the development and ongoing improvement of advanced email security technologies that protect today’s digital organizations.  
+My mission is to deliver high-impact, commercially licensed solutions for businesses, educators, and researchers—helping create a safer, more robust information-driven world.
 
 ---
 
@@ -9,7 +9,7 @@ My mission is to deliver cutting-edge open-source solutions for businesses, educ
 
 Step into the frontline of email security innovation.
 
-**Phred** isn’t just an email phishing detection suite—it’s an advanced security awareness and simulation platform designed to help organizations proactively defend against sophisticated phishing threats.
+**Phred** isn’t just another email phishing detection suite—it’s a next-generation, sponsor-supported security awareness and simulation platform designed to help organizations proactively defend against sophisticated phishing threats.
 
 ### Key Features:
 - **Sophisticated Phishing Campaign Simulation:** Launch customizable campaigns with realistic templates, targeting employees by department, region, or risk profile.
@@ -19,28 +19,28 @@ Step into the frontline of email security innovation.
 - **Rapid Onboarding:** Get started in hours—not weeks—whether you’re a small business or a global enterprise.
 - **Granular Segmentation:** Organize and target employees for precise, effective simulation and reporting.
 
-Phred offers more than awareness—it’s an operational platform for defenders, responders, and compliance teams.
+Phred delivers much more than basic awareness—it’s an operational cyber defense platform built for modern defenders, incident responders, and compliance teams.
 
 ---
 
 ## 🏛️ The Living Archive and Agenic AI Research
 
-At the heart of our mission is the **Living Archive** project: a critical foundation for developing and testing agenic AI systems to secure and manage complex organizational data.  
-Your ongoing monthly sponsorship powers this research and enables breakthroughs in defensive AI for information protection.
+At the heart of this vision is the **Living Archive** project: a foundational system for developing and testing agenic AI to secure and manage complex organizational data.  
+Your sponsorship powers critical infrastructure, accelerates our commercial roadmap, and creates real-world breakthroughs in defensive AI for organizational protection.
 
 ---
 
-## ⭐ Why Sponsor Now?
+## ⭐ Why Sponsor or Invest Now?
 
-- 🚀 **Ignite Alpha Testing:** Your support launches the private Alpha phase of Phred, allowing you to help shape the next breakthrough in threat detection.
-- ☁️ **Accelerate Cloud Infrastructure:** Sponsorship directly funds initial AWS hosting, ensuring fast and secure rollout for early users.
-- 🏅 **Be a Founding Force:** Sponsors build the infrastructure that safeguards digital communications, and receive prominent recognition—your organization’s name or logo featured as an early backer.
+- 🚀 **Ignite Alpha Testing:** Your support unlocks the private Alpha phase of Phred—play a hands-on role in shaping the next breakthrough in threat detection.
+- ☁️ **Accelerate Cloud Infrastructure:** Sponsorship directly funds initial AWS-powered hosting, ensuring fast and secure rollouts for early adopters.
+- 🏅 **Be a Founding Force:** Early sponsors build the platform that will safeguard digital communications, and receive prominent recognition—your organization’s logo or name featured as a launch backer.
 
 Early sponsors receive:
-- **Special Recognition:** Your name/logo in README, website, and “Founding Partner Wall.”
-- **Priority Support:** Dedicated support channel, 4-hour business response, and emergency escalation options.
-- **Roadmap Input:** Monthly voting rights on features via the public Phred roadmap board.
-- **Behind-the-scenes Insight:** Private development updates, early access, and invitations to Alpha/Beta programs.
+- **Special Recognition:** Name/logo in README, website, and the “Founding Sponsor Wall.”
+- **Priority Support:** Dedicated support channel, 4-hour business-day response, and emergency escalation.
+- **Roadmap Input:** Voting rights on new features via the public Phred roadmap board.
+- **Behind-the-Scenes Insight:** Direct updates, early access to private betas, and involvement in key pilot phases.
 
 ---
 
@@ -50,22 +50,23 @@ Early sponsors receive:
 - **Dedicated Channel:** Fast-track issues to the lead developer.
 - **Response Time:** 4 business hours (M–F, 9am–6pm local).
 - **Emergency Escalation:** 1-hour response, twice monthly, for critical incidents.
-- **Scope:** Troubleshooting, campaign setup, security usage; hands-on integration only for top-tier sponsors.
+- **Scope:** Troubleshooting, campaign setup, feature use; hands-on integration only for top-tier sponsors.
 
 ### Roadmap Input
 - **Voting Rights:** 1 voting ticket per sponsored seat/month for feature priorities.
-- **Transparency:** All requests and votes appear on the public Phred roadmap ([Trello/public board link to be provided]).
-- **Feature Acceleration:** Sponsor-backed requests are considered for quarterly fast-track; credited in release notes.
+- **Transparency:** Requests and votes appear on the public Phred roadmap ([Trello/public board link to be provided]).
+- **Feature Acceleration:** Sponsor-backed requests considered for quarterly fast-track; sponsors are credited in release notes for adopted feature ideas.
 
 ---
 
 ## 💡 Your Impact
 
-*Every sponsor drives the next generation of open-source defensive tools. Whether supporting Phred directly or the wider Living Archive project, you help deliver effective security and powerful AI to the community.*
+*Every sponsor accelerates the rollout of industry-grade, defensively engineered security and AI solutions.  
+By supporting Phred (and the wider Living Archive initiative), you empower a new era of accessible, reliable threat mitigation for the organizations that need it most.*
 
-**Are you ready to be a catalyst for safer digital futures?**  
-[Sponsor Phred today & help us launch the next generation of protection!](https://github.com/sponsors/ChickenPwny)
+**Are you ready to shape the future of digital security?**  
+[Sponsor Phred today & help us launch the next generation of enterprise protection!](https://github.com/sponsors/ChickenPwny)
 
 ---
 
-*Thank you for helping build a more secure, information-driven world!*
+*Thank you for joining the mission to build a safer and more resilient digital world!*
