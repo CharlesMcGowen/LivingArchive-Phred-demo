@@ -20,6 +20,7 @@ document.addEventListener('DOMContentLoaded', function() {
     startAutoSimulation();
     initializeChart();
     startAnimationLoop();
+    setupImageModal();
 });
 
 function initializeDemo() {
@@ -476,4 +477,52 @@ function showEventLog() {
 }
 
 // Side advertisement is always visible, no JavaScript needed
+
+// Image Modal/Lightbox Functionality for Multiple Images
+function setupImageModal() {
+    const modal = document.getElementById('image-modal');
+    const modalImg = document.getElementById('modal-image');
+    const closeBtn = document.querySelector('.image-modal-close');
+    const zoomableImages = document.querySelectorAll('.features-image-zoomable');
+    
+    if (modal && modalImg && zoomableImages.length > 0) {
+        // Add click handlers to all zoomable images
+        zoomableImages.forEach(function(image) {
+            image.addEventListener('click', function() {
+                if (this.src && this.src.trim() !== '') {
+                    modal.classList.add('active');
+                    modalImg.src = this.src;
+                    modalImg.alt = this.alt || 'Feature Image';
+                    document.body.style.overflow = 'hidden'; // Prevent background scrolling
+                }
+            });
+        });
+        
+        // Close modal when close button is clicked
+        if (closeBtn) {
+            closeBtn.addEventListener('click', function() {
+                closeModal();
+            });
+        }
+        
+        // Close modal when clicking outside the image
+        modal.addEventListener('click', function(e) {
+            if (e.target === modal || e.target.classList.contains('image-modal-caption')) {
+                closeModal();
+            }
+        });
+        
+        // Close modal with ESC key
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'Escape' && modal.classList.contains('active')) {
+                closeModal();
+            }
+        });
+        
+        function closeModal() {
+            modal.classList.remove('active');
+            document.body.style.overflow = ''; // Restore scrolling
+        }
+    }
+}
 
