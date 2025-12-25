@@ -1,72 +1,56 @@
-# 🚀 Support Next-Gen Security & AI Innovation — PHRED Product Definition & Sponsorship Policy
+# 🎯 Phred Pro - Live Interactive Demo
 
-With your support, you are investing in the development and ongoing improvement of advanced email security technologies that protect today’s digital organizations.  
-My mission is to deliver high-impact, commercially licensed solutions for businesses, educators, and researchers—helping create a safer, more robust information-driven world.
+This repository contains the interactive demo for **Phred Pro**, the high-efficiency phishing simulation platform.
 
----
+## 🌐 [Click Here to View the Live Demo Dashboard](https://chickenpwny.github.io/LivingArchive-Phred-demo/)
 
-## 🟣 Focus Project: [Phred](https://github.com/ChickenPwny/PhishingRetrievalEmailDetection)
+## 🛑 Current Status: Pre-Seed Seeding Phase
 
-Step into the frontline of email security innovation.
+Phred is currently seeking **$10,000 in Strategic Capital** to move from Demo to Production.
 
-**Phred** isn’t just another email phishing detection suite—it’s a next-generation, sponsor-supported security awareness and simulation platform designed to help organizations proactively defend against sophisticated phishing threats.
+Because our architecture is **Pay-Per-Request (AWS Serverless)**, our running costs are incredibly low ($0.21/user). However, we require upfront capital for:
 
-### Key Features:
-- **Sophisticated Phishing Campaign Simulation:** Launch customizable campaigns with realistic templates, targeting employees by department, region, or risk profile.
-- **Targeted Anti-Phishing Training:** Automatically enroll users who fall for simulated attacks into engaging, interactive training modules.
-- **Actionable Reporting & Analytics:** Real-time dashboards and downloadable reports reveal click rates, risk areas, and training outcomes.
-- **Integration-Ready:** Seamlessly integrates with SMTP, Google Workspace, and Microsoft 365.
-- **Rapid Onboarding:** Get started in hours—not weeks—whether you’re a small business or a global enterprise.
-- **Granular Segmentation:** Organize and target employees for precise, effective simulation and reporting.
+- **Infrastructure Setup:** Secure SMTP relays and DKIM-signed domain authority.
+- **Legal Compliance:** LLC formation and "Pilot Program" liability frameworks.
+- **Core Development:** Completing the AI-powered "Reply Chain" engine.
 
-Phred delivers much more than basic awareness—it’s an operational cyber defense platform built for modern defenders, incident responders, and compliance teams.
+## 💰 How to Sponsor Phred
 
----
+If you are a business looking for a low-cost alternative to KnowBe4 ($3.00/seat), consider becoming a **Seeding Partner**:
 
-## 🏛️ The Living Archive and Agenic AI Research
+- **$2,500 - Founding Partner:** Logo on the site + 1 year of "Locked-in" pricing.
+- **$5,000 - Pilot Partner:** Get the Dockerized code to run simulations on your own internal network today.
 
-At the heart of this vision is the **Living Archive** project: a foundational system for developing and testing agenic AI to secure and manage complex organizational data.  
-Your sponsorship powers critical infrastructure, accelerates our commercial roadmap, and creates real-world breakthroughs in defensive AI for organizational protection.
+[👉 Sponsor Phred via GitHub Sponsors](https://github.com/sponsors/ChickenPwny) | [👉 Support via GoFundMe](#)
 
----
+## 🛠️ Local Technical Evaluation
 
-## ⭐ Why Sponsor or Invest Now?
+If you want to see how Phred handles the "Logic" without the cloud, you can run the demo agent locally:
 
-- 🚀 **Ignite Alpha Testing:** Your support unlocks the private Alpha phase of Phred—play a hands-on role in shaping the next breakthrough in threat detection.
-- ☁️ **Accelerate Cloud Infrastructure:** Sponsorship directly funds initial AWS-powered hosting, ensuring fast and secure rollouts for early adopters.
-- 🏅 **Be a Founding Force:** Early sponsors build the platform that will safeguard digital communications, and receive prominent recognition—your organization’s logo or name featured as a launch backer.
+1. Clone this repo.
+2. Ensure Docker is installed.
+3. Run:
 
-Early sponsors receive:
-- **Special Recognition:** Name/logo in README, website, and the “Founding Sponsor Wall.”
-- **Priority Support:** Dedicated support channel, 4-hour business-day response, and emergency escalation.
-- **Roadmap Input:** Voting rights on new features via the public Phred roadmap board.
-- **Behind-the-Scenes Insight:** Direct updates, early access to private betas, and involvement in key pilot phases.
+```bash
+chmod +x start_demo.sh
+./start_demo.sh
+```
 
----
+This will spin up the local callback agent and simulate the campaign flow you see on the dashboard.
 
-## 🛡️ Sponsor Tier Policies
+## 📹 Video Walkthrough
 
-### Priority Support
-- **Dedicated Channel:** Fast-track issues to the lead developer.
-- **Response Time:** 4 business hours (M–F, 9am–6pm local).
-- **Emergency Escalation:** 1-hour response, twice monthly, for critical incidents.
-- **Scope:** Troubleshooting, campaign setup, feature use; hands-on integration only for top-tier sponsors.
+*[Video walkthrough coming soon - will demonstrate the dashboard and `start_demo.sh` script]*
 
-### Roadmap Input
-- **Voting Rights:** 1 voting ticket per sponsored seat/month for feature priorities.
-- **Transparency:** Requests and votes appear on the public Phred roadmap ([Trello/public board link to be provided]).
-- **Feature Acceleration:** Sponsor-backed requests considered for quarterly fast-track; sponsors are credited in release notes for adopted feature ideas.
+## 🔗 Related Repositories
+
+- **[Phred Pro (Main Repository)](https://github.com/ChickenPwny/LivingArchive-Phred-pro)** - Full source code, deployment guides, and documentation
+- **[Phred (Original)](https://github.com/ChickenPwny/PhishingRetrievalEmailDetection)** - Original project repository
+
+## 📄 License
+
+See the main Phred Pro repository for licensing information.
 
 ---
 
-## 💡 Your Impact
-
-*Every sponsor accelerates the rollout of industry-grade, defensively engineered security and AI solutions.  
-By supporting Phred (and the wider Living Archive initiative), you empower a new era of accessible, reliable threat mitigation for the organizations that need it most.*
-
-**Are you ready to shape the future of digital security?**  
-[Sponsor Phred today & help us launch the next generation of enterprise protection!](https://github.com/sponsors/ChickenPwny)
-
----
-
-*Thank you for joining the mission to build a safer and more resilient digital world!*
+**Want to see this in production? We are currently raising $10k to launch. [Click here to Sponsor →](https://github.com/sponsors/ChickenPwny)**

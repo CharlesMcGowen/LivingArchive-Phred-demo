@@ -57,6 +57,22 @@ function setupEventListeners() {
         simulateLinkClick();
         triggerAnimation();
     });
+    
+    // Sponsorship banner close functionality
+    const bannerClose = document.getElementById('banner-close');
+    const sponsorshipBanner = document.getElementById('sponsorship-banner');
+    if (bannerClose && sponsorshipBanner) {
+        bannerClose.addEventListener('click', function() {
+            sponsorshipBanner.classList.add('hidden');
+            // Store preference in localStorage
+            localStorage.setItem('sponsorship-banner-closed', 'true');
+        });
+        
+        // Check if banner was previously closed
+        if (localStorage.getItem('sponsorship-banner-closed') === 'true') {
+            sponsorshipBanner.classList.add('hidden');
+        }
+    }
 }
 
 function simulateEmailOpen() {
